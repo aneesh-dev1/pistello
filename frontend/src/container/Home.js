@@ -8,15 +8,19 @@ import { connect } from "../connect";
 import logo from "../assets/logo.svg";
 import { userQuery } from "../utils/data";
 import logo_black from "../assets/logo_black.svg";
+import { fetchUser } from "../utils/fetchUser";
 
 const Home = () => {
   const [ToggleSidebar, setToggleSidebar] = useState(false);
   const [user, setUser] = useState(null);
   const scrollRef = useRef(null);
-  const userInfo =
-    localStorage.getItem("user") !== "undefined"
-      ? JSON.parse(localStorage.getItem("user"))
-      : localStorage.clear();
+  
+  
+  
+  const userInfo = fetchUser();//fetching data
+  
+  
+  
   useEffect(() => {
     const query = userQuery(userInfo?.googleId);
     connect.fetch(query).then((data) => {
