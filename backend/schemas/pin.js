@@ -32,8 +32,8 @@ export default {
             }
         },
         {
-            name:'userID',
-            title:'UserID',
+            name:'userId',
+            title:'UserId',
             type:'string'
         },
         {
@@ -48,8 +48,8 @@ export default {
             of:[{type:'save'}]
         },
         {
-            name:'comments',
-            title:'Comments',
+            name:'comment',
+            title:'Comment',
             type:'array',
             of:[{type:'comment'}]
         },
