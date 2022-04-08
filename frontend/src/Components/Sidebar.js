@@ -1,7 +1,6 @@
 import React from "react";
 import { NavLink, Link } from "react-router-dom";
 import { RiHomeFill } from "react-icons/ri";
-import { IoIoArrowForward } from "react-icons/io";
 import logo_black from "../assets/logo_black.svg";
 import {categories} from '../utils/data'
 

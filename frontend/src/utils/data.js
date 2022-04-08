@@ -8,7 +8,7 @@ export const categories = [
     image: 'https://i.pinimg.com/236x/03/48/b6/0348b65919fcbe1e4f559dc4feb0ee13.jpg',
   },
   {
-    name: 'websites',
+    name: 'web development',
     image: 'https://i.pinimg.com/750x/66/b1/29/66b1296d36598122e6a4c5452b5a7149.jpg',
   },
   {
@@ -23,8 +23,8 @@ export const categories = [
     image: 'https://i.pinimg.com/236x/fa/95/98/fa95986f2c408098531ca7cc78aee3a4.jpg',
   },
   {
-    name: 'quotes',
-    image: 'https://i.pinimg.com/236x/46/7c/17/467c17277badb00b638f8ec4da89a358.jpg',
+    name: 'Anime',
+    image: 'https://i0.wp.com/thenerddaily.com/wp-content/uploads/2018/08/Reasons-To-Watch-Anime.jpg?w=1000&ssl=1',
   }, 
   {
     name: 'others',

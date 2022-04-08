@@ -24,8 +24,8 @@ const Login = () => {
 
 
   return (
-    <div className="flex justify-start items-center flex-col h-screen">
-      <div className="relative w-full ">
+    <div className="flex justify-start items-center flex-col h-screen ">
+      <div className="relative w-full h-full">
         <video
           src={share}
           type="video/mp4"
